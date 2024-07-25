@@ -1,0 +1,94 @@
+.italic {
+    font-style: italic;
+}
+
+/* CSS */
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+
+    --highlight-color: #2348b6;
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
+
+body, html {
+    box-sizing: border-box;
+    background-color: #1E1F22;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 5rem;
+    margin: 0;
+}
+
+.heading p {
+    color: #CECECE;
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--highlight-color);
+}
+
+
+.highlight {
+    color: var(--highlight-color);
+    gap: 0.3rem;
+}
+
+.status {
+    margin-top: 5rem;
+}
+
+.status p {
+    margin: 0.3rem;
+}
+
+.status h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+.highlighted {
+    border-radius: 20px;
+    padding: 0.3rem 0.5rem;
+    font-size: small;
+    background-color: gray;
+    color: rgb(161, 161, 161);
+}
+
+.planned {
+    background-color: rgba(158, 0, 0, 0.596);
+    color: rgb(254, 99, 99);
+}
+
+.development {
+    background-color: hsla(120, 100%, 25%, 0.596);
+    color: greenyellow
+}
+
+.description {
+    line-height: 2rem;
+}

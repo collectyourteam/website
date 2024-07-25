@@ -1,0 +1,51 @@
+{
+    "name": "collectyour.team",
+    "short_name": "CY.T",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "background_color": "#1E1F22",
+    "scope": "/",
+    "start_url": "/index.html",
+    "icons": [
+      {
+        "src": "assets/images/icons/logo-icon-bw-72px.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/logo-icon-bw-96px.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/logo-icon-bw-128px.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/logo-icon-bw-144px.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/logo-icon-bw-152px.png",
+        "sizes": "152x152",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/logo-icon-bw-192px.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/logo-icon-bw-384px.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/images/icons/logo-icon-bw-512px.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
